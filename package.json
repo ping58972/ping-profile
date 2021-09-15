@@ -1,0 +1,29 @@
+{
+    "name": "ping58972",
+    "version": "0.0.0",
+    "description": "software engineer experiences",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "homepage": "ping58972.com",
+    "main": "gulpfile.js",
+    "scripts": {
+        "start": "gulp serve --watch",
+        "build": "gulp build"
+    },
+    "author": "Nalongsone Danddank",
+    "license": "ISC",
+    "devDependencies": {
+        "@nuscout/eslint-config": "^0.2.1",
+        "browser-sync": "^2.27.5",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^6.1.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-eslint": "^6.0.0",
+        "gulp-imagemin": "^4.1.0",
+        "gulp-sass": "^5.0.0",
+        "gulp-uglify": "^3.0.2",
+        "graceful-fs": "4.2.2"
+    }
+}

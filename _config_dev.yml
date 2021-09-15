@@ -1,0 +1,43 @@
+# Site settings
+name: Nalongsone Danddank
+title: Nalongsone Danddank | Software Engineer
+description: Software Engineer&Developer focused on building and creating beautiful future Applications, also new technologies.
+url: https://ping58972.com/
+baseurl: ''
+email: ping58972@gmail.com
+cover: 
+logo: 
+resume: 
+social:
+  - title: email
+    url: mailto:ping58972@gmail.com
+  - title: twitter
+    url: https://twitter.com/ping58972
+  - title: instagram
+    url: https://instagram.com/ping58972
+  - title: github
+    url: https://github.com/ping58972
+  - title: linkedin
+    url: https://www.linkedin.com/in/ping58972
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
