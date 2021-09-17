@@ -24,4 +24,4 @@ gulp.task('build', gulp.series(['sass', 'scripts', 'images', 'jekyll-build']));
 const { src, task } = require('gulp');
 const ghPages = require('gulp-gh-pages');
 
-task('deploy', () => src('./build/**/*').pipe(ghPages()));
+task('deploy', () => src('./dist/**/*').pipe(ghPages()));
