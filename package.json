@@ -17,13 +17,14 @@
     "devDependencies": {
         "@nuscout/eslint-config": "^0.2.1",
         "browser-sync": "^2.27.5",
+        "graceful-fs": "4.2.2",
         "gulp": "^4.0.2",
         "gulp-autoprefixer": "^6.1.0",
         "gulp-clean-css": "^4.3.0",
         "gulp-eslint": "^6.0.0",
+        "gulp-gh-pages": "^0.5.4",
         "gulp-imagemin": "^4.1.0",
         "gulp-sass": "^5.0.0",
-        "gulp-uglify": "^3.0.2",
-        "graceful-fs": "4.2.2"
+        "gulp-uglify": "^3.0.2"
     }
 }
