@@ -1,6 +1,5 @@
 
-
-Third iteration of my personal website.
+my personal website.
 
 
 ## Dependencies

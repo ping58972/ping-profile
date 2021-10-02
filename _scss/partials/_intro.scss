@@ -33,59 +33,68 @@
         @include tiny-mobile {
             font-size: 1.4rem;
         }
-        .emoji {
-            width: 40px;
-            height: 40px;
-            @include desktop {
-                width: 35px;
-                height: 35px;
-            }
-            @include tablet {
-                width: 30px;
-                height: 30px;
-            }
-            @include small-mobile {
-                width: 25px;
-                height: 25px;
-            }
-        }
+        // .emoji {
+        //     width: 40px;
+        //     height: 40px;
+        //     @include desktop {
+        //         width: 35px;
+        //         height: 35px;
+        //     }
+        //     @include tablet {
+        //         width: 30px;
+        //         height: 30px;
+        //     }
+        //     @include small-mobile {
+        //         width: 25px;
+        //         height: 25px;
+        //     }
+        // }
     }
     &__hello {
-        font-weight: 300;
+        // font-weight: 300;
         .wave-hand {
-            background-image: url('../img/emojis/wave.png');
-            margin-left: 10px;
-            cursor: pointer;
-            &.animated {
-                animation-duration: 1s;
-                animation-fill-mode: both;
-            }
-            &.wave {
-                animation-name: wave;
-            }
-            @keyframes wave {
-                from {
-                    transform: none;
-                }
-                15% {
-                    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
-                }
-                30% {
-                    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
-                }
-                45% {
-                    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
-                }
-                60% {
-                    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
-                }
-                75% {
-                    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
-                }
-                to {
-                    transform: none;
-                }
-            }
+            width: 150px;
+            height: 150px;
+            background: url('../img/logo/Ping.jpg');
+            border-radius: 50%;
+            border: solid 3px #fff;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            margin-left: 150px;
+            // margin-top: 300px;
+            // top: 1000px;
+            // bottom: 100px;
+            // cursor: pointer;
+            // &.animated {
+            //     animation-duration: 1s;
+            //     animation-fill-mode: both;
+            // }
+            // &.wave {
+            //     animation-name: wave;
+            // }
+            // @keyframes wave {
+            //     from {
+            //         transform: none;
+            //     }
+            //     15% {
+            //         transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -10deg);
+            //     }
+            //     30% {
+            //         transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 7deg);
+            //     }
+            //     45% {
+            //         transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -10deg);
+            //     }
+            //     60% {
+            //         transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 5deg);
+            //     }
+            //     75% {
+            //         transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -2deg);
+            //     }
+            //     to {
+            //         transform: none;
+            //     }
+            // }
         }
     }
     &__tagline {
@@ -94,9 +103,10 @@
         .name {
             font-weight: 700;
         }
-        .technologist {
-            background-image: url('../img/emojis/technologist.png');
-        }
+        // margin-bottom: -300px;
+        // .technologist {
+        //     background-image: url('../img/emojis/technologist.png');
+        // }
     }
     &__contact {
         font-size: 1.25rem;
@@ -107,6 +117,7 @@
         .emoji {
             &.pointer {
                 background-image: url('../img/emojis/pointright.png');
+                // background-image: url('../img/logo/Ping.jpg');
                 width: 30px;
                 height: 30px;
                 margin: 0 5px;
@@ -132,3 +143,24 @@
         }
     }
 }
+
+// .portrait {
+//     z-index: 10;
+//     position: relative;
+//     // left: 50%;
+//     right: auto;
+//     -webkit-transform: translateX(-50%);
+//     -moz-transform: translateX(-50%);
+//     -ms-transform: translateX(-50%);
+//     -o-transform: translateX(-50%);
+//     transform: translateX(-50%);
+//     width: 150px;
+//     height: 150px;
+//     background: url('../img/logo/Ping.jpg');
+//     border-radius: 50%;
+//     border: solid 3px #fff;
+//     background-size: 100%;
+//     background-repeat: no-repeat;
+//     // top: 10px;
+//     bottom: 10px;
+// }
