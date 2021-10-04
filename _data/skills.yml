@@ -12,24 +12,6 @@ languages:
   - item: HTML/CSS/Sass
   - item: JSON
 
-dataStruc_algorithm:
-  - item: BTS, DFS, BFS
-  - item: Trees, Graph
-  - item: Hash-Table
-  - item: Linked-List
-  - item: Stacks, Queus
-  - item: Recursion
-  - item: Dynamic-Prog
-  - item: Greedy-Alg
-  - item: Informed-Search
-  - item: Uniformaed-Search
-  - item: Genetic-Alg
-  - item: NP-Complete
-  - item: Bellman-Ford's-Alg
-  - item: Dijkstra's-Alg
-  - item: All-Pairs-Shortest-Path
-
-
 frameworks:
   - item: Spring-Boot
   - item: Spring-Cloud
@@ -85,3 +67,20 @@ tools_networking:
   - item: Restful-API
   - item: Socket, HTTP
   - item: TCP, UDP, IP.
+
+dataStruc_algorithm:
+  - item: BTS, DFS, BFS
+  - item: Trees, Graph
+  - item: Hash-Table
+  - item: Linked-List
+  - item: Stacks, Queus
+  - item: Recursion
+  - item: Dynamic-Prog
+  - item: Greedy-Alg
+  - item: Informed-Search
+  - item: Uniformaed-Search
+  - item: Genetic-Alg
+  - item: NP-Complete
+  - item: Bellman-Ford's-Alg
+  - item: Dijkstra's-Alg
+  - item: All-Pairs-Shortest-Path
