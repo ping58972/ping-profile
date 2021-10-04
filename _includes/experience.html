@@ -11,10 +11,16 @@
           <div class="job__time">{{job.time}}</div>
         </div>
         <div class="job__position">{{job.position}}</div>
+        <p></p>
+        <p>{{job.description1}} </br>
+        {{job.description2}}</br>
+        {{job.description3}}</br>
+        {{job.description4}}</p>
       </div>
       {% endfor %}
     </div>
-
     <a href="{{site.resume}}" target="_blank" class="arrow-link">View My Resume</a>
+    </p>
+    {% include employment-status.html %}
   </div>
 </section>

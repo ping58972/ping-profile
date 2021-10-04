@@ -1,41 +1,87 @@
 languages:
-  - item: JavaScript (ES6)
-  - item: TypeScript
-  - item: HTML
-  - item: CSS/Sass
+  - item: Java
   - item: Python
+  - item: C#
+  - item: C/C++
+  - item: JavaScript
+  - item: Object-Oriented-Prog
+  - item: Design Patterns
+  - item: Parallel & Multi-Thread-Prog
   - item: SQL
-  - item: R
+  - item: TypeScript
+  - item: HTML/CSS/Sass
+  - item: JSON
+
+dataStruc_algorithm:
+  - item: BTS, DFS, BFS
+  - item: Trees, Graph
+  - item: Hash-Table
+  - item: Linked-List
+  - item: Stacks, Queus
+  - item: Recursion
+  - item: Dynamic-Prog
+  - item: Greedy-Alg
+  - item: Informed-Search
+  - item: Uniformaed-Search
+  - item: Genetic-Alg
+  - item: NP-Complete
+  - item: Bellman-Ford's-Alg
+  - item: Dijkstra's-Alg
+  - item: All-Pairs-Shortest-Path
+
 
 frameworks:
-  - item: Ember & Glimmer
+  - item: Spring-Boot
+  - item: Spring-Cloud
+  - item: Hibernate
+  - item: JPA
+  - item: Numpy
+  - item: Panda
   - item: React
-  - item: Jekyll
-  - item: Node
-  - item: D3
-  - item: Wordpress
-  - item: Timber
+  - item: Redux
+  - item: React Native
+  - item: Angular
+  - item: Node.js
 
-tools:
-  - item: Bash
-  - item: Git & Github
-  - item: Gulp & Grunt
-  - item: Chrome DevTools
-  - item: Postman
+cloudComputing_bigData:
+  - item: 'AWS:'
+  - item: -IAM, VPC, ELB,
+  - item: -EC2, Lambda,
+  - item: -S3, EBS, EFS, 
+  - item: -RDS, DynamoDB.
+  - item: 'GCP:'
+  - item: -Compute-Egnine,
+  - item: -Cloud-Storage,
+  - item: -Cloud-SQL,
+  - item: -Filestore.
   - item: MongoDB
+  - item: MySQL
+  - item: Docker
+  - item: Containerization
+  - item: Hadoop
+  - item: Map-reduce
 
-design:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+machineLearning_deepLearning:
+  - item: 'Supervised:'
+  - item: -Linear-Regression, 
+  - item: -Logistic-Regression,
+  - item: 'Unsupervised:'
+  - item: -Neural-Networks
+  - item: -CNN
+  - item: PyTorch
+  - item: TensorFlow
+  - item: Keras
 
-ML:
-  - item: Sketch
-  - item: InDesign
-  - item: InVision
-  - item: Prototyping
-  - item: Wireframing
-  - item: User Testing
+tools_networking:
+  - item: Linux, Bash, Vim
+  - item: Git, Github
+  - item: Postman
+  - item: Maven, Jenkins
+  - item: Webpack, Gulp
+  - item: JUnit, Mockito
+  - item: Distributed-System
+  - item: Micro-services
+  - item: Web-services
+  - item: Restful-API
+  - item: Socket, HTTP
+  - item: TCP, UDP, IP.

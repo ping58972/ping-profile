@@ -1,0 +1,28 @@
+<section class="section other-projects">
+  <div class="section__title">CS-Courses Projects</div>
+  <div class="section__content">
+    {% for project in site.data.course-projects %}
+    <div class="project">
+      <div class="project__name">
+      {% if project.server_code != empty %}
+      <a href="{{project.server_code}}" target="_blank" class="server-github-link ">{{project.name}}</a>
+      {%else%}
+      <a href="" target="_blank" class="">{{project.name}}</a>
+      {% endif %}
+      {% if project.client_code != empty %}
+        <a href="{{project.client_code}}" target="_blank" class="client-github-link"></a>
+      {% endif %}
+      {% if project.url != empty %}
+        <a href="{{project.url}}" target="_blank" class="arrow-link"></a>
+      {% endif %}
+      </div>
+      <p>{{project.description}}</p>
+      <div class="project__used">
+        {% for item in project.used %}
+        <span class="project__used__item">{{item.thing}}</span>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

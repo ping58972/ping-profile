@@ -1,0 +1,107 @@
+- name: Fight Search API Server
+  server_code: https://github.com/ping58972/unitedairline-search-app-server/tree/master/flight-search
+  client_code: ""
+  url: ""
+  description: This Project build for Airline Search APP by using
+        Java server side technology, Spring Boot to creat Restfil Api. this is the part of project 
+        which using Micro-services to handle and deploy by Docker.
+  used:
+    - thing: Java
+    - thing: Spring Boot
+    - thing: RestFul API
+    - thing: Micro-services
+
+- name: Clinic Management
+  server_code: https://github.com/ping58972/clinic-management
+  client_code: ""
+  url: ""
+  description: Java - core Java se8.
+        JSP - java service page for dynamic web page.
+        Servlet - Used to implement web server with java.
+       JDBC - java database connectivity API for connect with MySQL.
+        Tomcat server - run server side for render web page.
+  used:
+    - thing: Java
+    - thing: JDBC
+    - thing: JSP
+    - thing: Tomcat server 
+    - thing: Servlet
+
+- name: Shop and Sell Web Server
+  server_code: https://github.com/ping58972/node-deploy-shopping-server
+  client_code: 
+  url: https://node-deploy-shopping-server.herokuapp.com
+  description: creating own product for selling or looking buy some products.
+   processing with authentication, validation, up&download files, saving data to MongoDB cloud, etc. 
+  used:
+    - thing: Node.js
+    - thing: Express.js
+    - thing: MongoDB
+
+- name: Post Message APP
+  server_code: https://github.com/ping58972/testing-node-rest-api-mocha-chai
+  client_code: https://github.com/ping58972/react-restful-api-basic-socket-io
+  url: https://ping58972.github.io/react-restful-api-basic-socket-io
+  description: This project is the single page that build by React and fetch all data by web server  
+              using MongoDB to save data this server API that has been deployed to Heroru and testing with Mocha&Chai
+  used:
+    - thing: Node.js
+    - thing: React.js
+    - thing: Express.js
+    - thing: Socket.io
+    - thing: MongoDB
+    - thing: Mocha
+
+- name: Shop Server
+  server_code: https://github.com/ping58972/shopping-server-validation
+  client_code: ""
+  url: ""
+  description: This project is the multiple pages render web server, All page on back-end by using EJS 
+            templating with Expressjs and using cloud database MongoDB Atlas. The website features include,
+             creating own product for selling or looking buy some products in the website. The website can 
+            process with authentication, validation, up&download files, etc.      
+  used:
+    - thing: Node.js
+    - thing: Express.js
+    - thing: nodemailer
+    - thing: MongoDB
+    - thing: Mongoose.js
+    - thing: Mocha
+
+- name: Single Web Page Portfolio
+  server_code: ""
+  client_code: https://github.com/ping58972/portfolio
+  url: https://ping58972.github.io/portfolio
+  description: The purpose of website is for looking jobs about software engineering, web developer, 
+      and programmer. The website include showing my resume, side projects and skill, etc. 
+  used:
+    - thing: React.js
+    - thing: JQuery
+    - thing: Webpack
+    - thing: swiper
+    - thing: SASS
+
+- name: Search Videos On Youtube Api
+  server_code: ""
+  client_code: https://github.com/ping58972/react-practice-searchVideosOnYoutubeApi
+  url: https://ping58972.github.io/react-practice-searchVideosOnYoutubeApi
+  description: The purpose of website is for practicing React Search Videos On Youtube Api by implement fetching 
+              videos from Youtube API, etc.
+  used:
+    - thing: Youtube Api
+    - thing: React.js
+    - thing: axios
+
+- name: Search Images to Arrange
+  server_code: ""
+  client_code: https://github.com/ping58972/react-practrice-FormEventHandle
+  url: https://ping58972.github.io/react-practrice-FormEventHandle
+  description: The purpose of website is for practicing React Form Event Handle by implement fetching images 
+              from an API, etc.   
+  used:
+    - thing: React.js
+    - thing: axios
+
+
+
+

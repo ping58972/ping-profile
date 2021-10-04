@@ -1,0 +1,26 @@
+- name: Surf Videos
+  url: https://github.com/bchiang7/Surf-Videos
+  code: https://github.com/bchiang7/Surf-Videos
+  description: Small React project created during an interview process to browse and search surf videos via the YouTube API.
+  used:
+    - thing: JavaScript
+    - thing: React
+    - thing: React Router
+    - thing: Axios
+    - thing: YouTube API
+
+- name: Working with Cloud Virtual Machines
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Distributed_and_Cloud_Computing-ICS432_01-Fall2021/Assignment-01
+  description: ICS 432 - 01 --- Distributed and Cloud Computing Fall 2021 --- Assignment 01</br>
+                 Exercise 1 - Hosting a web site on an AWS EC2 instance. </br>
+                 Exercise 2 - Data Analysis using SQL on a GCP Virtual Machine.
+  used:
+    - thing: AWS
+    - thing: AWS EC2
+    - thing: AWS S3
+    - thing: AWS EFS
+    - thing: GCP 
+    - thing: GCP Compute-Egnine
+    - thing: GCP Cloud-SQL

@@ -1,0 +1,30 @@
+- name: Manager App
+  server_code: ""
+  client_code: https://github.com/ping58972/manager-mobile-app
+  url: ""
+  description: This mobile app is for practice react native, react reduxe, and google firebase that implement 
+              by android studio, etc.
+  used:
+    - thing: Google Firebase
+    - thing: Redux
+    - thing: React-Native
+
+- name: Taylor Songs App
+  server_code: ""
+  client_code: https://github.com/ping58972/Taylor-songs-mobile-app
+  url: ""
+  description: This mobile app is for practice react native that implement by android studio, etc.
+  used:
+    - thing: React-Native
+    - thing: Android Studio
+
+- name: Tech Stack App
+  server_code: ""
+  client_code: https://github.com/ping58972/tech-stack-mobile-app
+  url: ""
+  description: This mobile app is for practice react native that implement by android studio, etc.
+  used:
+    - thing: React-Native
+    - thing: Redux 
+    - thing: Android Studio
+
