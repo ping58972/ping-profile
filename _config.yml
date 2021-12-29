@@ -2,12 +2,13 @@
 name: Nalongsone Danddank
 title: Nalongsone Danddank | Software Developer
 description: Software Engineer&Developer focused on building and creating beautiful future Applications, also new technologies.
-url: https://ping58972.github.io/ping-profile/
+url: https://ping58972.github.io
 baseurl: ''
 email: ping58972@gmail.com
 cover: 
 logo: 
-resume: https://ping58972.github.io/ping-profile/NalongsoneDanddank_Resume.pdf
+resume: https://github.com/ping58972/ping58972.github.io/blob/gh-pages/NalongsoneDanddank_Resume.pdf
+academic_record: https://github.com/ping58972/ping58972.github.io/blob/gh-pages/AcademicRecord.pdf
 social:
   - title: email
     url: mailto:ping58972@gmail.com
