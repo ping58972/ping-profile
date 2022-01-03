@@ -1,6 +1,6 @@
 - name: Identify Cat Picture
   url: ""
- client_code: ""
+  client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week2/Logistic%20Regression%20as%20a%20Neural%20Network
   description: Dataset (data.h5) - a training set of m_train images labeled as cat (y=1) or non-cat (y=0) 
             - a test set of m_test images labeled as cat or non-cat - each image is of shape (num_px, num_px, 3) 
@@ -38,7 +38,7 @@
 
 - name: Identify Hand Number by RN
   url: ""
- client_code: ""
+  client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week2/ResNets
   description: Implement the basic building blocks of ResNets.
           Put together these building blocks to implement and train
@@ -66,7 +66,7 @@
 
 - name: Planar Data Classification
   url: ""
- client_code: ""
+  client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/NeuralNetworksAndDeepLearning/Week3/Planar%20data%20classification%20with%20one%20hidden%20layer
   description: Implement a 2-class classification neural network with a single hidden layer
         Use units with a non-linear activation function, such as tanh
@@ -106,7 +106,7 @@
 
 - name: Emojify
   url: ""
- client_code: ""
+  client_code: ""
   server_code: https://github.com/ping58972/Coursera_DeepLearningSpecialization/tree/main/Convolutional%20Neural%20Networks/Week4/Neural%20Style%20Transfer
   description: Congratulations on the promotion! Let's get coffee and talk. Love you!
                 The emojifier can automatically turn this into
