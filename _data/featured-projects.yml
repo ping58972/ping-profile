@@ -41,13 +41,15 @@
     - thing: MongoDB
     - thing: Mocha
 
-- name: Working with Cloud Virtual Machines
+- name: Distributed and Cloud Computing Course's Assignment
   url: ""
   client_code: ""
-  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Distributed_and_Cloud_Computing-ICS432_01-Fall2021/Assignment-01
-  description:  This is an Assignment from CS course - Distributed and Cloud Computing. </br>
-                 Part 1 is Hosting a web site on an AWS EC2 instance. </br>
-                 Part 2 is Data Analysis using SQL on a GCP Virtual Machine.
+  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Distributed_and_Cloud_Computing-ICS432_01-Fall2021/publish
+  description:  Distributed and Cloud Computing --- ICS 432 Fall 2021 Fall 2021 </br>
+                Working with Cloud Virtual Machines - AWS EC2 instance, GCP Virtual Machine.</br>
+                Load Balancing and Auto Scaling - Implementing a scalable AWS and GCP infrastructure.</br>
+                MapReduce - Analyzing Stock Data, Implementing Relational Union and Intersection.</br>
+                Docker in AWS and GCP with Python Flask.
   used:
     - thing: AWS
     - thing: AWS EC2
@@ -97,3 +99,22 @@
     - thing: Google Firebase
     - thing: Redux
     - thing: React-Native
+  
+- name: Data Sockets with Multi-thread
+  url: ""
+  client_code: ""
+  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Parallel_and_Distributed_Algorithms-ICS440_01-Fall2021/publish
+  description: Parallel and Distributed Algorithms --- ICS 440-01 Fall 2021 </br> 
+               Creating multi-thread of self-running object to wait for client </br>
+               requests to be sent up then send back the appropriate response.  </br>
+               Use the writeUTF(String s) method on DataOutputStream to send a reqeust </br>
+              (or a response) over the OutputStream of the Socket. </br>
+              Use the readUTF() method on DataInputStream to receive a request (or a </br>
+              response) from the InputStream of the Socket.
+  used:
+    - thing: Java
+    - thing: Object Oriented Programming
+    - thing: Mutiple Thread Programming
+    - thing: Parallel Programming
+    - thing: Thread Pools
+    - thing: Dead Lock

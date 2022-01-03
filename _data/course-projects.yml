@@ -24,7 +24,7 @@
     - thing: Socket
     - thing: UDP
 
-- name: Parallel and Distributed Algorithms class
+- name: Data Sockets with Multi-thread
   url: ""
   client_code: ""
   server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Parallel_and_Distributed_Algorithms-ICS440_01-Fall2021/publish
@@ -48,10 +48,10 @@
   client_code: ""
   server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Distributed_and_Cloud_Computing-ICS432_01-Fall2021/publish
   description:  Distributed and Cloud Computing --- ICS 432 Fall 2021 Fall 2021 </br>
-                Assignment 1 - Working with Cloud Virtual Machines.</br>
-                Assignment 2 - Load Balancing and Auto Scaling.</br>
-                Assignment 3 - MapReduce.</br>
-                Docker Lab - Docker in AWS and GCP.
+                Working with Cloud Virtual Machines - AWS EC2 instance, GCP Virtual Machine.</br>
+                Load Balancing and Auto Scaling - Implementing a scalable AWS and GCP infrastructure.</br>
+                MapReduce - Analyzing Stock Data, Implementing Relational Union and Intersection.</br>
+                Docker in AWS and GCP with Python Flask.
   used:
     - thing: AWS
     - thing: AWS EC2
