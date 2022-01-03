@@ -12,12 +12,12 @@
     - thing: File System Management
     - thing: Memory Management
 
-- name: File Sender and Receiver Networking 
+- name: File Sender and Receiver - Stop and Wait
   url: ""
   client_code: ""
-  server_code: https://github.com/MSU-ICS460-01-Team03/project01-udp
+  server_code: https://github.com/MSU-ICS460-01-Team03/project2-Team3
   description: Networks and Security  --- ICS 460 Fall 2021 </br> 
-                Project 01 --- End to End networking program, implement by Java Socket, Datagram.</br>
+                Project 02 --- End to End networking program, implement by Java Socket, Datagram.</br>
                 sends files to the receiver using UDP Socket.
   used:
     - thing: Java
@@ -27,8 +27,14 @@
 - name: Parallel and Distributed Algorithms class
   url: ""
   client_code: ""
-  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Parallel_and_Distributed_Algorithms-ICS440_01-Fall2021
+  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Parallel_and_Distributed_Algorithms-ICS440_01-Fall2021/publish
   description: Parallel and Distributed Algorithms --- ICS 440-01 Fall 2021 </br> 
+               Creating multi-thread of self-running object to wait for client </br>
+               requests to be sent up then send back the appropriate response.  </br>
+               Use the writeUTF(String s) method on DataOutputStream to send a reqeust </br>
+              (or a response) over the OutputStream of the Socket. </br>
+              Use the readUTF() method on DataInputStream to receive a request (or a </br>
+              response) from the InputStream of the Socket.
   used:
     - thing: Java
     - thing: Object Oriented Programming
@@ -37,13 +43,15 @@
     - thing: Thread Pools
     - thing: Dead Lock
 
-- name: Working with Cloud Virtual Machines
+- name: Distributed and Cloud Computing Course's Assignment
   url: ""
   client_code: ""
-  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Distributed_and_Cloud_Computing-ICS432_01-Fall2021/Assignment-01
-  description:  Distributed and Cloud Computing --- ICS 432 Fall 2021 Fall 2021 </br>Assignment 01</br>
-                 Exercise 1 - Hosting a web site on an AWS EC2 instance. </br>
-                 Exercise 2 - Data Analysis using SQL on a GCP Virtual Machine.
+  server_code: https://github.com/ping58972/Metropolitan-State-University-All-Courses/tree/main/Distributed_and_Cloud_Computing-ICS432_01-Fall2021/publish
+  description:  Distributed and Cloud Computing --- ICS 432 Fall 2021 Fall 2021 </br>
+                Assignment 1 - Working with Cloud Virtual Machines.</br>
+                Assignment 2 - Load Balancing and Auto Scaling.</br>
+                Assignment 3 - MapReduce.</br>
+                Docker Lab - Docker in AWS and GCP.
   used:
     - thing: AWS
     - thing: AWS EC2
