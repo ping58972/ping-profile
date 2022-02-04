@@ -19,6 +19,7 @@ frameworks:
   - item: JPA
   - item: Numpy
   - item: Panda
+  - item: Django
   - item: React
   - item: Redux
   - item: React Native
