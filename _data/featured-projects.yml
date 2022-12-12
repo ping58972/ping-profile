@@ -15,8 +15,8 @@
     - thing: Ham cycle path
 
 - name: Airline Search App
-  server_code: https://github.com/ping58972/unitedairline-search-app-server/tree/master/flight-search
-  client_code: https://github.com/ping58972/unitedairline-search-app-client
+  server_code: https://github.com/ping58972/learn-spring/tree/main/flight-search
+  client_code: https://github.com/ping58972/learn-frentend/tree/main/angular-unitedairline-search-app-client
   url: ""
   description: This Project is Full-Stack Application of Airline Search service Restful API. </br> Client side, single Web page, was implement with Angular CLI version 8.3.20. </br>
           Server side implements by Java spring boot and connect to MySQL Database.
@@ -28,9 +28,8 @@
     - thing: MySQL
 
 - name: Post Message Web APP
-  server_code: https://github.com/ping58972/testing-node-rest-api-mocha-chai
-  client_code: https://github.com/ping58972/react-restful-api-basic-socket-io
-  url: https://ping58972.github.io/react-restful-api-basic-socket-io
+  server_code: https://github.com/ping58972/learn-node-js/tree/main/testing-node-rest-api-mocha-chai
+  client_code: https://github.com/ping58972/learn-frentend/tree/main/react-restful-api-basic-socket-io
   description: This project is the single page that build by React and fetch all data from web server  
               using MongoDB to save data this server API that has been deployed to Heroru and testing with Mocha&Chai
   used:
