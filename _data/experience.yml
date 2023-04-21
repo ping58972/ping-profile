@@ -1,7 +1,7 @@
 - company: Infosys Limited
   url: #
-  time: Jan 2020 - May 2020
-  position: Software Engineer Intern
+  time: Dec 2019 - May 2020
+  position: Software Engineer
   description1: Worked with a team step by step, helped design and development applications and implementation of Object-Oriented using core Java 8 or higher version, and implements Algorithms & Data Structures by Java Collections API.
   description2: Assistant Database’s team with using JDBC connect pooling to access the oracle Database.
   description3: Get Trained by team with Restful API implement by Spring boot, Spring cloud and Microservices Architecture. Using DevOps tools, GIT, Jenkins CI/CD pipeline, Docker, Linux.
@@ -9,7 +9,7 @@
 - company: BeaconFire Inc.
   url: #
   time: May 2022 - Now
-  position: Java Software Developer - Full-time
+  position: Java Software Developer
   description1: Experience with Microservices project by using Spring frameworks to build a Restful API. Also Implement communication for each Services, Synchronous - Feign, RestTemplate. Asynchronous - RabbitMQ or Kafka.
   description2: Experience Databases with SQL - MySQL, MS SQL. NoSQL - MongoDB, DynamoDB. And using JDBC and Hibernate to interact with SQL Databases to implement Transaction that following ACID principles for Restful API project. Also practice to implement Distributed Transaction Management by SAGA pattern for Microservices.
   description3: Also Practice and experience with Cloud Service Technology, AWS - EC2, S3, RDS, ECS, Lambda for deployment of Restful API project through Docker and Jenkins. And Testing by JUnit and Mockito.
